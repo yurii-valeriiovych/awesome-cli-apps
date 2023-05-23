@@ -1,3 +1,0 @@
-files:
-  - source: .github/
-    translation: .github/%original_file_name%%three_letters_code%
