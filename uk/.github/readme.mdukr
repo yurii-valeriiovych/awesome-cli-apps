@@ -1,660 +1,660 @@
 <p align="center">
-    <img width="763" src="https://cdn.rawgit.com/aharris88/awesome-cli-apps/master/media/banner.png" alt="awesome cli apps">
+    <img width="763" src="https://cdn.rawgit.com/aharris88/awesome-cli-apps/master/media/banner.png" alt="дивовижні cli додатки">
 </p>
 
 ---
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Шикарно](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> A curated list of command line apps.
+> Курований список програм з командним рядком.
 
-Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
+Натхненний почуттям [крутої речі у списку](https://github.com/sindresorhus/awesome).
 
-## Table of Contents
+## Зміст
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Entertainment](#entertainment)
-  - [Music](#music)
-  - [Social Media](#social-media)
-  - [Video](#video)
-  - [Movies](#movies)
-  - [Games](#games)
-  - [Books](#books)
-- [Development](#development)
-  - [Text Editors](#text-editors)
-  - [Frontend Development](#frontend-development)
-  - [Mobile Development](#mobile-development)
-  - [Database](#database)
-  - [Devops](#devops)
-  - [Docker](#docker)
-  - [Release](#release)
+- [Розваги](#entertainment)
+  - [Музика](#music)
+  - [Соціальні мережі](#social-media)
+  - [Відео](#video)
+  - [Фільми](#movies)
+  - [Ігри](#games)
+  - [Книжки](#books)
+- [Розробка](#development)
+  - [Текстові редактори](#text-editors)
+  - [Інтерфейс розробки](#frontend-development)
+  - [Мобільний розвиток](#mobile-development)
+  - [База даних](#database)
+  - [Пристрої](#devops)
+  - [Докер](#docker)
+  - [Звільнити](#release)
   - [Npm](#npm)
-  - [Boilerplate](#boilerplate)
-  - [HTTP Server](#http-server)
-  - [HTTP Client](#http-client)
-- [Productivity](#productivity)
-  - [Time Tracking](#time-tracking)
-  - [Note Taking and Lists](#note-taking-and-lists)
-  - [Finance](#finance)
-  - [Presentations](#presentations)
-  - [Calendars](#calendars)
-- [Utilities](#utilities)
+  - [Бойлерпластин](#boilerplate)
+  - [HTTP-сервер](#http-server)
+  - [Клієнт HTTP](#http-client)
+- [Продукти](#productivity)
+  - [Відстеження часу](#time-tracking)
+  - [Нотатки при завантаженні і списках](#note-taking-and-lists)
+  - [Фінанси](#finance)
+  - [Презентації](#presentations)
+  - [Календарі](#calendars)
+- [Службові програми](#utilities)
   - [macOS](#macos)
-  - [Terminal Sharing Utilities](#terminal-sharing-utilities)
-  - [Network Utilities](#network-utilities)
-  - [Theming and Customization](#theming-and-customization)
-  - [Shell Utilities](#shell-utilities)
-  - [System Interaction Utilities](#system-interaction-utilities)
+  - [Інструменти обміну терміналами](#terminal-sharing-utilities)
+  - [Мережеві засоби](#network-utilities)
+  - [Теми та персоналізація](#theming-and-customization)
+  - [Інструменти мушлі](#shell-utilities)
+  - [Інструменти взаємодії системи](#system-interaction-utilities)
   - [Markdown](#markdown)
-  - [Security](#security)
-  - [Math](#math)
-  - [Weather](#weather)
-  - [Browser Replacement](#browser-replacement)
-  - [Internet Speedtest](#internet-speedtest)
-- [Command Line Learning](#command-line-learning)
-- [Data Manipulation](#data-manipulation)
-  - [Processors](#processors)
+  - [Безпека](#security)
+  - [Математика](#math)
+  - [Погода](#weather)
+  - [Заміна оглядача](#browser-replacement)
+  - [Інтернет-гіспект](#internet-speedtest)
+- [Навчання командного рядка](#command-line-learning)
+- [Маніпуляція даних](#data-manipulation)
+  - [Процесори](#processors)
   - [JSON](#json)
-  - [YAML](#yaml)
-  - [Columns](#columns)
-  - [Text](#text)
-- [Files and Directories](#files-and-directories)
-  - [File Managers](#file-managers)
-  - [Deleting, Copying, and Renaming](#deleting-copying-and-renaming)
-  - [Files](#files)
-  - [File Sync/Sharing](#file-syncsharing)
-  - [Directory Listing](#directory-listing)
-  - [Directory Navigation](#directory-navigation)
-  - [Search](#search)
-- [Version Control](#version-control)
+  - [ЯМЛ](#yaml)
+  - [Стовпці](#columns)
+  - [Текст](#text)
+- [Файли та директорії](#files-and-directories)
+  - [Файловий менеджер](#file-managers)
+  - [Видалення, Копіювання та перейменування](#deleting-copying-and-renaming)
+  - [Файли](#files)
+  - [Синхронізація / Спільне використання файлів](#file-syncsharing)
+  - [Список каталогів](#directory-listing)
+  - [Навігація по каталогах](#directory-navigation)
+  - [Пошук](#search)
+- [Керування версіями](#version-control)
   - [Git](#git)
   - [GitHub](#github)
   - [Emoji](#emoji)
-- [Images](#images)
-  - [Gif Creation](#gif-creation)
-  - [Image Conversion](#image-conversion)
-- [Screensavers](#screensavers)
-- [Graphics](#graphics)
-- [Just for Fun](#just-for-fun)
+- [Малюнки](#images)
+  - [Створення Ґіф](#gif-creation)
+  - [Перетворення зображень](#image-conversion)
+- [Заощадження екрану](#screensavers)
+- [Графіка](#graphics)
+- [Лише весело](#just-for-fun)
   - [Emoji](#emoji-1)
-- [Other Awesome Lists](#other-awesome-lists)
-- [License](#license)
+- [Інші списки Awesome](#other-awesome-lists)
+- [Ліцензія](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ---
 
-## Entertainment
+## Розваги
 
-- [football-cli](https://github.com/ManrajGrover/football-cli) - Get live scores, fixtures, standings of almost every football competition/league.
-- [pockyt](https://github.com/arvindch/pockyt) - Read, Manage, and Automate your [Pocket](https://getpocket.com) collection.
-- [newsboat](https://github.com/newsboat/newsboat) - An extendable RSS feed reader for text terminals.
+- [футбольне поле](https://github.com/ManrajGrover/football-cli) - Отримуйте опорні бали, фіксації, положення майже кожної футбольної конкуренції/ліги.
+- [кишеню](https://github.com/arvindch/pockyt) - Чита, ручну і автоматизуйте свій [Кишенька](https://getpocket.com) колекцію.
+- [новинний човен](https://github.com/newsboat/newsboat) - Розширюваний читач RSS-стрічок для текстових терміналів.
 
-### Music
+### Музика
 
-- [cmus](https://github.com/cmus/cmus) - Small, fast and powerful console music player.
-- [Instant-Music-Downloader](https://github.com/yask123/Instant-Music-Downloader) - Instant music downloader.
-- [itunes-remote](https://github.com/mischah/itunes-remote) - Control iTunes via CLI.
-- [pianobar](https://6xq.net/pianobar/) - Pandora client.
-- [somafm-cli](https://github.com/rockymadden/somafm-cli) - Listen to SomaFM in your terminal.
-- [mpd](https://github.com/MusicPlayerDaemon/MPD) - Music Player Daemon.
-- [ncmpcpp](https://github.com/arybczak/ncmpcpp) - mpd client.
-- [moc](http://moc.daper.net/) - Console audio player for Linux/UNIX.
-- [musikcube](https://github.com/clangen/musikcube) - Cross-platform, terminal-based music player, audio engine, metadata indexer, and server.
-- [beets](https://github.com/beetbox/beets) - Music library manager and tagger.
-- [spotify-tui](https://github.com/Rigellute/spotify-tui) - Spotify client.
-- [swaglyrics-for-spotify](https://github.com/SwagLyrics/SwagLyrics-For-Spotify) - Spotify lyrics.
-- [dzr](https://github.com/yne/dzr) - deezer.com player.
+- [cmus](https://github.com/cmus/cmus) - невеликий, швидкий та потужний музичний програвач консолі.
+- [Миттєвий музичний завантажувач](https://github.com/yask123/Instant-Music-Downloader) - Миттєвий музичний завантажувач.
+- [itunes-remote](https://github.com/mischah/itunes-remote) - Контролювати iTunes через CLI.
+- [pianobar](https://6xq.net/pianobar/) - клієнт Pandora.
+- [somafm-cli](https://github.com/rockymadden/somafm-cli) - Слухайте у терміналі SomaFM.
+- [mpd](https://github.com/MusicPlayerDaemon/MPD) - Фонова служба музичного програвача.
+- [ncmpcpp](https://github.com/arybczak/ncmpcpp) - клієнт mpd.
+- [мод](http://moc.daper.net/) - Консольний аудіо плеєр для Linux/UNIX.
+- [musikcube](https://github.com/clangen/musikcube) - кросс-платформа, термінально-базована музичний програвач, аудіо-двигун, програма індексування метаданих і сервер.
+- [жуки](https://github.com/beetbox/beets) - менеджер музичної бібліотеки і мітки.
+- [spotify-tui](https://github.com/Rigellute/spotify-tui) - клієнт Spotify.
+- [swaglyrics-for-spotify](https://github.com/SwagLyrics/SwagLyrics-For-Spotify) - Spotify тексти.
+- [dzr](https://github.com/yne/dzr) - deezer.com плеєр.
 
-### Social Media
+### Соціальні мережі
 
-- [facebook-cli](https://github.com/specious/facebook-cli) - Facebook command line interface.
+- [facebook-cli](https://github.com/specious/facebook-cli) - командний інтерфейс Facebook.
 - [TTYtter](https://github.com/oysttyer/oysttyer) - Twitter client.
-- [Rainbowstream](https://github.com/DTVD/rainbowstream) - A smart and nice Twitter client on the terminal.
+- [Rainbowstream](https://github.com/DTVD/rainbowstream) - Хороший і розумний клієнт Twitter в терміналі.
 - [tuir](https://gitlab.com/ajak/tuir) - Reddit TUI.
-- [WeeChat](https://weechat.org/) - Fast, light and extensible chat client.
-- [irssi](https://github.com/irssi/irssi) - IRC chat client.
-- [kirc](https://github.com/mcpcpc/kirc) - Tiny IRC client.
+- [WeeChat](https://weechat.org/) - Швидкий, світло та розширений клієнт чату.
+- [irssi](https://github.com/irssi/irssi) - клієнт чату IRC.
+- [kirc](https://github.com/mcpcpc/kirc) - Tiny IRC клієнт.
 
-### Video
+### Відео
 
-- [youtube-dl](https://github.com/ytdl-org/youtube-dl) - Download videos from YouTube.com and many other video sites.
-- [streamlink](https://github.com/streamlink/streamlink) - Extract streams from various websites to a video player of your choosing.
-- [mps-youtube](https://github.com/mps-youtube/mps-youtube) - Youtube player.
-- [mpv](https://mpv.io) - Superior video player.
-- [editly](https://github.com/mifi/editly) - Declarative video editing.
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A `youtube-dl` fork with additional features and fixes.
+- [youtube-dl](https://github.com/ytdl-org/youtube-dl) - Завантажити відео на YouTube.com та багато інших відео-сайтів.
+- [потокове передавання](https://github.com/streamlink/streamlink) - Екстракт з різних веб-сайтів до відеопрогравача вашого вибору.
+- [mps-youtube](https://github.com/mps-youtube/mps-youtube) - Youtube плеєр.
+- [mpv](https://mpv.io) - Відступник відео-плеєра.
+- [редагувати](https://github.com/mifi/editly) - Декларативне редагування відео.
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - `youtube-dl` форк з додатковими функціями і виправленнями.
 
-### Movies
+### Фільми
 
-- [moviemon](https://github.com/iCHAIT/moviemon) - Everything about your movies.
-- [movie](https://github.com/mayankchd/movie) - Get movie info or compare movies.
+- [кіно](https://github.com/iCHAIT/moviemon) - Все про ваші фільми.
+- [фільм](https://github.com/mayankchd/movie) - отримати інформацію про відео або порівняти фільми.
 
-### Games
+### Ігри
 
-- [Dwarf Fortress](http://www.bay12games.com/dwarves/) - Roguelike construction and management simulation.
-- [Cataclysm-DDA](https://cataclysmdda.org) - Turn-based survival game set in a post-apocalyptic world.
-- [pokete](https://github.com/lxgr-linux/pokete) - Pokemon-like.
+- [Фортеця Dwarf](http://www.bay12games.com/dwarves/) - імітація будівництва та управління Roguelik.
+- [Cataclysm-DDDA](https://cataclysmdda.org) - Наведена в пост-апокаліптичний світ виживання.
+- [pokete](https://github.com/lxgr-linux/pokete) - подібний покемон.
 
-### Books
+### Книжки
 
-- [epr](https://github.com/wustho/epr) - epub reader.
+- [epr](https://github.com/wustho/epr) - epub читач.
 - [Bible.Js CLI](https://github.com/BibleJS/BibleApp) - Bible.
-- [SpeedRead](https://github.com/sunsations/speed_read) - Spritz-alike speedreader.
-- [medium-cli](https://github.com/djadmin/medium-cli) - Read [medium.com](https://medium.com/) stories.
+- [SpeedRead](https://github.com/sunsations/speed_read) - Spritz-alike speeder.
+- [середній клі](https://github.com/djadmin/medium-cli) - Прочитайте [середній.com](https://medium.com/) історій.
 
-## Development
+## Розробка
 
-- [legit](https://github.com/captainsafia/legit) - Generate Open Source licences as files or file headers.
-- [mklicense](https://github.com/cezaraugusto/mklicense) - Create a custom LICENSE file painlessly with customized info.
-- [rebound](https://github.com/shobrook/rebound) - Fetch Stack Overflow results on compiler error.
-- [foy](https://github.com/zaaack/foy) - Lightweight general purpose task runner/build tool.
-- [just](https://github.com/casey/just) - Modern `make`-like command runner.
-- [bcal](https://github.com/jarun/bcal) - Byte CALculator for storage conversions and calculations.
-- [bitwise](https://github.com/mellowcandle/bitwise) - Base conversion and bit manipulation.
-- [cgasm](https://github.com/bnagy/cgasm) - x86 assembly documentation.
-- [grex](https://github.com/pemistahl/grex) - Generate regular expressions from user-provided test cases.
-- [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard) - Modular visual interface for GDB.
-- [iola](https://github.com/pvarentsov/iola) - Socket client with REST API.
-- [add-gitignore](https://github.com/TejasQ/add-gitignore) - Interactively generate a .gitignore for your project based on your needs.
-- [is-up-cli](https://github.com/sindresorhus/is-up-cli) - Check if a domain is up.
-- [reachable](https://github.com/italolelis/reachable) - Check if a domain is up.
-- [loadtest](https://github.com/alexfernandez/loadtest) - Run load tests.
-- [diff2html-cli](https://github.com/rtfpessoa/diff2html-cli) - Create pretty HTML from diffs.
+- [legit](https://github.com/captainsafia/legit) - Генерувати ліцензії Open Source як файли або заголовки файлів.
+- [mklicense](https://github.com/cezaraugusto/mklicense) - Створити власний LICENSE файл безглуздо з модифікованою інформацією.
+- [перев'язка](https://github.com/shobrook/rebound) - Вибір результатів переповнення Stack в помилці компілятора.
+- [foy](https://github.com/zaaack/foy) - універсальне завдання для виконання роботи/збірки інструменту.
+- [просто](https://github.com/casey/just) - Сучасний `зробити`-подібний до команди runner.
+- [bcal](https://github.com/jarun/bcal) - Byte CALculator для збереження переходів та розрахунків.
+- [bitwise](https://github.com/mellowcandle/bitwise) - Базове перетворення та маніпуляції бітами.
+- [бензин](https://github.com/bnagy/cgasm) - x86 асамблей до документації.
+- [сірка](https://github.com/pemistahl/grex) - Генерувати регулярні вирази з тестових випадків.
+- [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard) - Модний візуальний інтерфейс для GDB.
+- [iola](https://github.com/pvarentsov/iola) - Сокетний клієнт з REST API.
+- [add-gitignore](https://github.com/TejasQ/add-gitignore) - Інтерактивно генеруйте .gitignore для вашого проекту на основі ваших потреб.
+- [is-up-cli](https://github.com/sindresorhus/is-up-cli) - Перевірте, чи встановлений домен.
+- [доступний](https://github.com/italolelis/reachable) - Перевірити наявність домену.
+- [тест](https://github.com/alexfernandez/loadtest) - Запустити завантаження тестів.
+- [diff2html-cli](https://github.com/rtfpessoa/diff2html-cli) - Створення досить HTML для порівняння (diff).
 
-### Text Editors
+### Текстові редактори
 
-- [emacs](https://github.com/emacs-mirror/emacs) - An extensible, customizable, free/libre text editor — and more.
-- [vim](https://github.com/vim/vim) - Vim - the ubiquitous text editor.
+- [емітує](https://github.com/emacs-mirror/emacs) - розширений, настроюваний, вільний/libre текстовий редактор - та багато іншого.
+- [vim](https://github.com/vim/vim) - Vim - універсальний текстовий редактор.
 - [neovim](https://github.com/neovim/neovim) - Modern vim.
-- [kakoune](https://github.com/mawww/kakoune) - Modal editor inspired by vim.
-- [micro](https://github.com/zyedidia/micro) - A simple and intuitive editor.
-- [o](https://github.com/xyproto/o) - Configuration-free text editor and IDE.
-- [helix](https://github.com/helix-editor/helix) -  Modal editor inspired by kakoune.
+- [kakoune](https://github.com/mawww/kakoune) - Модальний редактор, натхненний Vim.
+- [micro](https://github.com/zyedidia/micro) - Простий і інтуїтивний редактор.
+- [o](https://github.com/xyproto/o) - Редактор тексту, який не налаштовується без налаштувань і IDE.
+- [спіраль](https://github.com/helix-editor/helix) - Модальний редактор, натхненний kakoune.
 
-### Frontend Development
+### Інтерфейс розробки
 
-- [caniuse-cmd](https://github.com/sgentle/caniuse-cmd) - Search [caniuse.com](https://caniuse.com) about browser support of features.
-- [strip-css-comments-cli](https://github.com/sindresorhus/strip-css-comments-cli) - Strip comments from CSS.
-- [viewport-list-cli](https://github.com/kevva/viewport-list-cli) - Return a list of devices and their viewports.
-- [surge](https://surge.sh) - Publish static websites for free.
+- [caniuse-cmd](https://github.com/sgentle/caniuse-cmd) - Пошук [caniuse.com](https://caniuse.com) про підтримку можливостей браузера.
+- [strip-css-comments-cli](https://github.com/sindresorhus/strip-css-comments-cli) - Замінювати коментарі від CSS.
+- [viewport-list-cli](https://github.com/kevva/viewport-list-cli) - Повертати список пристроїв та їх переглядачів.
+- [сплеск](https://surge.sh) - Опублікувати статичні веб-сайти безкоштовно.
 
-### Mobile Development
+### Мобільний розвиток
 
-- [mobicon-cli](https://github.com/SamVerschueren/mobicon-cli) - Mobile app icon generator.
-- [mobisplash-cli](https://github.com/SamVerschueren/mobisplash-cli) - Mobile app splash screen generator.
-- [deviceframe](https://github.com/c0bra/deviceframe) - Put device frames around your mobile/web/progressive app screenshots.
+- [mobicon-cli](https://github.com/SamVerschueren/mobicon-cli) - генератор іконок мобільних застосунків.
+- [mobisplash-cli](https://github.com/SamVerschueren/mobisplash-cli) - генератор сплешу мобільного додатка.
+- [вибір пристрою](https://github.com/c0bra/deviceframe) - Перемістіть його навколо скріншотів для мобільних пристроїв/веб/прогресивних програм.
 
-### Database
+### База даних
 
-- [mycli](https://github.com/dbcli/mycli) - MySQL client with autocompletion and syntax highlighting.
-- [pgcli](https://github.com/dbcli/pgcli) - Postgres client with autocompletion and syntax highlighting.
-- [sqlline](https://github.com/julianhyde/sqlline) -  Shell for issuing SQL via JDBC.
-- [iredis](https://github.com/laixintao/iredis) - Redis client with autocompletion and syntax highlighting.
-- [usql](https://github.com/xo/usql) - Universal SQL client with autocompletion and syntax highlighting.
+- [mycli](https://github.com/dbcli/mycli) - клієнт MySQL за допомогою автозаповнення та синтаксичного виділення.
+- [pgcli](https://github.com/dbcli/pgcli) - клієнт Postgres з виділенням автодоповнення та синтаксису.
+- [sqlline](https://github.com/julianhyde/sqlline) - Шелл для випуску SQL через JDBC.
+- [iredis](https://github.com/laixintao/iredis) - Клієнт, який використовує автодоповнення та синтаксис.
+- [usql](https://github.com/xo/usql) - Універсальний SQL клієнт з виділенням autocompletion і синтаксису.
 
-### Devops
+### Пристрої
 
-- [htconvert](https://github.com/lukechilds/htconvert) - Convert .htaccess redirects to nginx.conf redirects.
-- [SAWS](https://github.com/donnemartin/saws) - Supercharged AWS CLI.
-- [s3cmd](https://github.com/s3tools/s3cmd) - Fully-Featured S3 client.
-- [pm2](https://github.com/Unitech/pm2) - Production Process Manager for Node.js.
-- [ops](https://github.com/nanovms/ops) - Unikernel compilation and orchestration tool.
-- [flog](http://github.com/mingrammer/flog) - A fake log generator for log formats such as apache-common, apache error and RFC3164 syslog.
-- [isitfit](http://github.com/autofitcloud/isitfit) - Manage AWS EC2 rightsizing.
-- [k9s](https://github.com/derailed/k9s) - Manage Kubernetes Clusters.
-- [PingMe](https://github.com/kha7iq/pingme) - Send messages/alerts to multiple messaging platforms & email.
-- [ipfs-deploy](https://github.com/agentofuser/ipfs-deploy) - Deploy static websites to [IPFS](https://github.com/ipfs/ipfs#overviewhttps://github.com/ipfs/ipfs#overview).
-- [Discharge](https://github.com/brandonweiss/discharge) - Deploy static websites to Amazon S3.
-- [updatecli](https://github.com/updatecli/updatecli) - A declarative dependency management tool.
+- [htconvert](https://github.com/lukechilds/htconvert) - Конвертувати редиректи .htaccess в nginx.conf редиректи.
+- [SAWS](https://github.com/donnemartin/saws) - заряджена AWS CLI.
+- [s3cmd](https://github.com/s3tools/s3cmd) - Клієнт з повною функцією S3.
+- [pm2](https://github.com/Unitech/pm2) - Production Process Manager для Node.js.
+- [вимикає](https://github.com/nanovms/ops) - засіб компіляції ядра та оркестрування.
+- [flog](http://github.com/mingrammer/flog) - генератор підробленого журналу для форматів журналів, таких як apache-common, apache error and RFC3164 syslog.
+- [isitfit](http://github.com/autofitcloud/isitfit) - Управління правом розміру AWS EC2.
+- [k9s](https://github.com/derailed/k9s) - Керування кластерами Kubernetes.
+- [PingMe](https://github.com/kha7iq/pingme) - Надішліть повідомлення декільком платформам обміну повідомленнями & email.
+- [ipfs-deploy](https://github.com/agentofuser/ipfs-deploy) - Розгортання статичних веб-сайтів на [IPFS](https://github.com/ipfs/ipfs#overviewhttps://github.com/ipfs/ipfs#overview).
+- [Розрядити](https://github.com/brandonweiss/discharge) - Розгортати статичні веб-сайти до Amazon S3.
+- [updatecli](https://github.com/updatecli/updatecli) - Програма керування декларативними залежностями.
 
-### Docker
+### Докер
 
-- [lstags](https://github.com/ivanilves/lstags) - Synchronize images across registries.
-- [dockly](https://github.com/lirantal/dockly) - Interactively manage containers.
-- [lazydocker](https://github.com/jesseduffield/lazydocker) - Simple docker/docker-compose interface.
-- [docker-shell](https://github.com/Trendyol/docker-shell) - Simple interactive docker interface.
-- [docker-pushrm](https://github.com/christian-korneck/docker-pushrm) - Push a readme to container registries.
+- [lstags](https://github.com/ivanilves/lstags) - Синхронізація зображень з радіусом.
+- [dockly](https://github.com/lirantal/dockly) - Інтерактивно керувати контейнерами.
+- [lazydocker](https://github.com/jesseduffield/lazydocker) - простий docker/docker-compose інтерфейс.
+- [docker-shell](https://github.com/Trendyol/docker-shell) - Простий інтерактивний інтерфейс докера.
+- [docker-pushrm](https://github.com/christian-korneck/docker-pushrm) - Перемістіть readme до регіонів контейнерів.
 
-### Release
+### Звільнити
 
-- [release-it](https://github.com/webpro/release-it) - Automate releases for Git repositories and/or npm packages. Changelog generation, GitHub/GitLab releases, etc.
-- [clog](https://github.com/clog-tool/clog-cli) - A conventional changelog for the rest of us.
-- [np](https://github.com/sindresorhus/np) - A better `npm publish`.
-- [release](https://github.com/vercel/release) - Generate changelogs with a single command.
-- [semantic-release](https://github.com/semantic-release/semantic-release) - Fully automated version management and package publishing.
+- [release-it](https://github.com/webpro/release-it) - Автоматизувати релізи для Git репозиторіїв та/або npm пакетів. Створення журналів оновлень, реліз GitHub/GitLab та ін.
+- [замикання](https://github.com/clog-tool/clog-cli) - Звичайний журнал змін для решти з нас.
+- [np](https://github.com/sindresorhus/np) - Кращий `npm опублікувати`.
+- [реліз](https://github.com/vercel/release) - Згенерувати список змін за допомогою однієї команди.
+- [семанти-реліз](https://github.com/semantic-release/semantic-release) - Повністю автоматизоване управління версіями і публікація пакетів.
 
 ### Npm
 
-- [npm-name-cli](https://github.com/sindresorhus/npm-name-cli) - Check whether a package name is available on npm.
-- [npm-user-cli](https://github.com/sindresorhus/npm-user-cli) - Get user info of a npm user.
-- [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of the package in the current directory.
-- [pkg-dir-cli](https://github.com/sindresorhus/pkg-dir-cli) - Find the root directory of a npm package.
-- [npm-check-updates](https://github.com/tjunnone/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
-- [updates](https://github.com/silverwind/updates) - Flexible npm dependency update tool.
-- [wipe-modules](https://github.com/bntzio/wipe-modules) - Remove `node_modules` of inactive projects.
+- [npm-name-cli](https://github.com/sindresorhus/npm-name-cli) - Перевірте, чи доступно ім'я пакету на npm.
+- [npm-user-cli](https://github.com/sindresorhus/npm-user-cli) - Отримати інформацію про користувача з npm.
+- [npm-home](https://github.com/sindresorhus/npm-home) - Відкрийте сторінку npm пакету в поточному каталозі.
+- [pkg-dir-cli](https://github.com/sindresorhus/pkg-dir-cli) - Знайдіть кореневу теку npm пакету.
+- [npm-check-updat](https://github.com/tjunnone/npm-check-updates) - Знайти новіші версії залежностей пакетів, ніж що дає ваш package.json.
+- [оновлення](https://github.com/silverwind/updates) - Гнучкий інструмент оновлення залежностей npm.
+- [wipe-modules](https://github.com/bntzio/wipe-modules) - Видалити `node_modules` з неактивних проектів.
 
-### Boilerplate
+### Бойлерпластин
 
-- [yo](https://github.com/yeoman/yo) - Scaffolding tool for running Yeoman generators.
-- [boilr](https://github.com/tmrts/boilr) - Create projects from boilerplate templates.
-- [cookiecutter](https://github.com/audreyr/cookiecutter) - Create projects from templates.
-- [mevn-cli](http://github.com/madlabsinc/mevn-cli) - Light speed setup for MEVN (Mongo Express Vue Node) Apps.
-- [scaffold-static](https://github.com/jamesgeorge007/scaffold-static) - Scaffolding utility for vanilla JS.
+- [йо](https://github.com/yeoman/yo) - інструмент риштування для працює генератори йомів.
+- [boilr](https://github.com/tmrts/boilr) - Створити проекти з шаблонів бойлертипу.
+- [cookiecutter](https://github.com/audreyr/cookiecutter) - Створити проекти з шаблонів.
+- [mevn-cli](http://github.com/madlabsinc/mevn-cli) - налаштування швидкості освітлення для MEVN (Mongo Express Vue Node) застосунків.
+- [основна статична система](https://github.com/jamesgeorge007/scaffold-static) - риштування утиліти для ванільних JS.
 
-### HTTP Server
+### HTTP-сервер
 
-- [serve](https://github.com/vercel/serve) - Serve static files (https, CORS, GZIP compression, etc).
-- [simplehttp](https://github.com/snwfdhmp/simplehttp) - Easily serve a local directory over HTTP.
-- [shell2http](https://github.com/msoap/shell2http) - Shell script based HTTP server.
+- [служити](https://github.com/vercel/serve) - Зберігати статичні файли (https, CORS, GZIP стиснення тощо).
+- [simplehttp](https://github.com/snwfdhmp/simplehttp) - Легко обслуговувати локальний каталог через HTTP.
+- [shell2http](https://github.com/msoap/shell2http) - Скрипт для використання HTTP сервера.
 
-### HTTP Client
+### Клієнт HTTP
 
-- [HTTPie](https://github.com/httpie/httpie) - A user-friendly HTTP client.
-- [HTTP Prompt](https://github.com/eliangcs/http-prompt) - Interactive HTTP client featuring autocomplete and syntax highlighting.
-- [ain](https://github.com/jonaslu/ain) - HTTP client with a simple format to organize API endpoints.
+- [HTTPie](https://github.com/httpie/httpie) - зручний HTTP клієнт.
+- [HTTP шкалу](https://github.com/eliangcs/http-prompt) - Інтерактивний клієнт HTTP та підсвітка синтаксису.
+- [ain](https://github.com/jonaslu/ain) - HTTP клієнт з простим форматом для організації кінцевих точок API.
 
-## Productivity
+## Продукти
 
 - [doing](https://github.com/ttscoff/doing/) - Keep track of what you’re doing and track what you’ve done.
-- [ffscreencast](https://github.com/cytopia/ffscreencast) - A ffmpeg screencast with video overlay and multi monitor support.
-- [meetup-cli](https://github.com/specious/meetup-cli) - Meetup.com client.
-- [NeoMutt](https://neomutt.org) - Email client.
-- [terjira](https://github.com/keepcosmos/terjira) - Jira client.
-- [ipt](https://github.com/drselump14/ipt) - Pivotal Tracker client.
+- [ffscreencast](https://github.com/cytopia/ffscreencast) - ffmpeg screencast з підтримкою накладення відео і мульти-монітором.
+- [meetup-cli](https://github.com/specious/meetup-cli) - клієнт Meetup.com.
+- [NeoMutt](https://neomutt.org) - клієнт електронної пошти.
+- [тержіра](https://github.com/keepcosmos/terjira) - клієнт Jira.
+- [ipt](https://github.com/drselump14/ipt) - Pivotal Tracker клієнт.
 - [uber-cli](https://github.com/jaebradley/uber-cli) - Uber client.
-- [Buku](https://github.com/jarun/Buku) - Browser-independent bookmark manager.
-- [papis](https://github.com/papis/papis) - Extensible document and bibliography manager.
-- [pubs](https://github.com/pubs/pubs) - Scientific bibliography manager.
+- [Buku](https://github.com/jarun/Buku) - Менеджер браузерів незалежних закладок.
+- [papis](https://github.com/papis/papis) - Розширюваний документ і менеджер бібліографій.
+- [шинка](https://github.com/pubs/pubs) - науковий менеджер бібліографій.
 
-### Time Tracking
+### Відстеження часу
 
-- [Timetrap](https://github.com/samg/timetrap) - Simple timetracker.
-- [moro](https://github.com/omidfi/moro) - Simple tool for tracking work hours.
-- [Timewarrior](https://github.com/GothenburgBitFactory/timewarrior) - Utility with simple stopwatch, calendar-based backfill and flexible reporting.
-- [Watson](https://github.com/TailorDev/Watson) - Generate reports for clients and manage your time.
-- [utt](https://github.com/larose/utt) - Simple time tracking tool.
-- [Bartib](https://github.com/nikolassv/bartib) - Easy to use time tracking tool.
+- [Період](https://github.com/samg/timetrap) - простий інтервал часу.
+- [moro](https://github.com/omidfi/moro) - Простий інструмент для відстеження робочих годин.
+- [Тайм-аут](https://github.com/GothenburgBitFactory/timewarrior) - Вміння з простим секундоміром, створеним в календарі і гнучким звітуванням.
+- [Watson](https://github.com/TailorDev/Watson) - Генеруйте звіти для клієнтів і керуйте вашим часом.
+- [utt](https://github.com/larose/utt) - простий інструмент відстеження.
+- [Bartib](https://github.com/nikolassv/bartib) - зручний у використанні інструмент відстеження часу.
 
-### Note Taking and Lists
+### Нотатки при завантаженні і списках
 
-- [idea](https://github.com/IonicaBizau/idea) - A lightweight tool for keeping ideas in a safe place quick and easy.
-- [geeknote](https://github.com/jeffkowalski/geeknote) - Evernote client.
-- [Taskwarrior](https://taskwarrior.org/) - Manage your TODO list.
-- [Terminal velocity](https://vhp.github.io/terminal_velocity/) - A fast note-taking app.
-- [eureka](https://github.com/simeg/eureka) - Input and store your ideas.
+- [ідея](https://github.com/IonicaBizau/idea) - Легкий інструмент для збереження ідей в безпечному місці швидкої та легкої.
+- [Гекнота](https://github.com/jeffkowalski/geeknote) - клієнт Evernote.
+- [Taskwarrior](https://taskwarrior.org/) - Управління списком TODO.
+- [Кінцева швидкість](https://vhp.github.io/terminal_velocity/) - швидкий додаток для оповіщення.
+- [Еврика](https://github.com/simeg/eureka) - Ввід та зберігай свої ідеї.
 - [sncli](https://github.com/insanum/sncli) - Simplenote client.
-- [td-cli](https://github.com/darrikonn/td-cli) - A TODO manager to organize and manage your TODO's across multiple projects.
+- [td-cli](https://github.com/darrikonn/td-cli) - Менеджер TODO для організації і керування TODO, в різних проектах.
 - [taskell](https://github.com/smallhadroncollider/taskell) - Interactive kanban board/task manager.
-- [taskbook](https://github.com/klaussinani/taskbook) - Tasks, boards & notes for the command-line habitat.
-- [dnote](https://github.com/dnote/dnote) - A interactive, multi-device notebook.
-- [nb](https://github.com/xwmx/nb) - A note‑taking, bookmarking, archiving, and knowledge base application.
-- [obs](https://github.com/Yakitrak/obsidian-cli) - Interact with your Obsidian vault.
+- [підручник](https://github.com/klaussinani/taskbook) - Завдання, Дошки & нотатки для панелі командного рядка.
+- [dnote](https://github.com/dnote/dnote) - вступна та мульти-записна книжка.
+- [nb](https://github.com/xwmx/nb) - Примітка, закладка, архівація та застосування бази знань.
+- [obs](https://github.com/Yakitrak/obsidian-cli) - взаємодіяти з вашим сховищем-обсидіаном.
 
-### Finance
+### Фінанси
 
-- [ledger](https://ledger-cli.org/) - Powerful, double-entry accounting system on the terminal
-- [moeda](https://github.com/thompsonemerson/moeda) - Foreign exchange rates and currency conversion.
-- [cash-cli](https://github.com/xxczaki/cash-cli) - Convert Currency Rates.
-- [cointop](https://github.com/miguelmota/cointop) - Track cryptocurrencies.
-- [ticker](https://github.com/achannarasappa/ticker) - Stock ticker.
+- [ledger](https://ledger-cli.org/) - потужна, подвійна система запису в терміналі
+- [моеда](https://github.com/thompsonemerson/moeda) - Курси валютних курсів та конвертації валют.
+- [готівка-cli](https://github.com/xxczaki/cash-cli) - Конвертувати курси валют.
+- [монета](https://github.com/miguelmota/cointop) - Лікування криптовалют.
+- [тікер](https://github.com/achannarasappa/ticker) - біржовий бік.
 
-### Presentations
+### Презентації
 
-- [WOPR](https://github.com/yaronn/wopr) - A simple markup language for creating rich terminal reports, presentations and infographics.
-- [decktape](https://github.com/astefanutti/decktape) - PDF exporter for HTML presentations.
-- [mdp](https://github.com/visit1985/mdp) - A markdown presentation tool.
-- [sent](https://tools.suckless.org/sent/) - Simple plaintext presentation tool.
-- [slides](https://github.com/maaslalani/slides) - A markdown presentation tool.
+- [WOPR](https://github.com/yaronn/wopr) - Проста мова розмітки для створення багатих термінових звітів, презентацій та інфографіки.
+- [decktape](https://github.com/astefanutti/decktape) - PDF експортер для HTML презентацій.
+- [mdp](https://github.com/visit1985/mdp) - інструмент презентації розмітки.
+- [відіслано](https://tools.suckless.org/sent/) - простий інструмент презентації яскравості.
+- [слайди](https://github.com/maaslalani/slides) - інструмент презентації розмітки.
 
-### Calendars
+### Календарі
 
-- [calcurse](https://calcurse.org/) - Calendar and scheduling.
-- [gcalcli](https://github.com/insanum/gcalcli) - Google calendar client.
-- [khal](https://github.com/pimutils/khal) - CalDAV ready CLI and TUI calendar.
+- [календар](https://calcurse.org/) - Календар і планування.
+- [gcalcli](https://github.com/insanum/gcalcli) - клієнт Google календаря.
+- [khal](https://github.com/pimutils/khal) - CalDAV готовий календар CLI і TUI
 - [vdirsyncer](https://github.com/pimutils/vdirsyncer) - CalDAV sync.
-- [remind](https://dianne.skoll.ca/projects/remind/) - A sophisticated calendar and alarm program.
-- [birthday](https://github.com/IonicaBizau/birthday) - Know when a friend's birthday is coming.
+- [нагадує](https://dianne.skoll.ca/projects/remind/) - витончений календар та програму будильників.
+- [день народження](https://github.com/IonicaBizau/birthday) - знаєте тепер, коли наближається друг друг.
 
-## Utilities
+## Службові програми
 
-- [aria2](https://github.com/tatsuhiro-t/aria2) - HTTP, FTP, SFTP, BitTorrent and Metalink download utility.
-- [bitly-client](https://github.com/specious/bitly-client) - Bitly client.
-- [deadlink](https://github.com/nschloe/deadlink) - Find dead links in files.
-- [crawley](https://github.com/s0rg/crawley) - Unix-way web crawler.
-- [kill-tabs](https://github.com/sindresorhus/kill-tabs) - Kill all Chrome tabs.
-- [alex](https://github.com/get-alex/alex) - Catch insensitive, inconsiderate writing.
+- [aria2](https://github.com/tatsuhiro-t/aria2) - HTTP, FTP, SFTP, BitTorrent і хеталінкове завантаження .
+- [кутовий клієнт](https://github.com/specious/bitly-client) - Бітовий клієнт.
+- [взаємне посилання](https://github.com/nschloe/deadlink) - знайти порожні посилання у файлах.
+- [пошуковий робот](https://github.com/s0rg/crawley) - Unix-way web crawler.
+- [вбивати вкладки](https://github.com/sindresorhus/kill-tabs) - Вбити всі вкладки Chrome.
+- [alex](https://github.com/get-alex/alex) - Нечутлива справа, не враховуючи письма.
 
 ### macOS
 
-- [open-pip-cli](https://github.com/albinekb/open-pip-cli) - Watch videos in picture-in-picture player.
-- [osx-wifi-cli](https://github.com/danyshaanan/osx-wifi-cli) - Manage wifi connections.
-- [active-win-cli](https://github.com/sindresorhus/active-win-cli) - Get the title/id/etc of the active window.
-- [stronghold](https://github.com/alichtman/stronghold) - Configure security settings from the terminal.
-- [dark-mode](https://github.com/sindresorhus/dark-mode) - Toggle dark mode.
+- [open-pip-cli](https://github.com/albinekb/open-pip-cli) - Дивитися відео у програвачі фото.
+- [osx-wifi-cli](https://github.com/danyshaanan/osx-wifi-cli) - Управління з'єднанням Wi-Fi.
+- [active-win-cli](https://github.com/sindresorhus/active-win-cli) - Завантажте заголовок / id/etc активного вікна.
+- [цитадель](https://github.com/alichtman/stronghold) - Налаштувати параметри безпеки з терміналу.
+- [затемнений режим](https://github.com/sindresorhus/dark-mode) - Перемкнути режим затемнення.
 
-### Terminal Sharing Utilities
+### Інструменти обміну терміналами
 
-- [gotty](https://github.com/yudai/gotty) - Share your terminal as a web application.
-- [localtunnel](https://github.com/localtunnel/localtunnel) - Expose your localhost to the world for easy testing and sharing.
-- [mosh](https://mosh.org/) - Remote SSH client that allows roaming with intermittent connectivity.
-- [ngrok](https://ngrok.com/) - Secure introspectable tunnels to localhost.
-- [tmate](https://tmate.io/) - Instant terminal (tmux) sharing.
-- [warp](https://github.com/spolu/warp) - Secure and simple terminal sharing.
-- [OverTime](https://github.com/diit/overtime-cli) - Time-overlap tables for remote teams.
+- [повинен](https://github.com/yudai/gotty) - Діліться своїм терміналом як веб-застосунком.
+- [локальний тунель](https://github.com/localtunnel/localtunnel) - Створіть свій локальний хост до світу для легкого тестування та спільного використання.
+- [mosh](https://mosh.org/) - Віддалений SSH клієнт, який дозволяє роумінг з постійним підключенням.
+- [ngrok](https://ngrok.com/) - Захищені тунелі для гри в інтроспекції, щоб localhost.
+- [tmate](https://tmate.io/) - Миттєвий термінал (tmux) спільного використання.
+- [варп](https://github.com/spolu/warp) - Безпечний і простий обмін терміналами.
+- [Перевищено час](https://github.com/diit/overtime-cli) - накладання таблиць з часу для віддалених команд.
 
-### Network Utilities
+### Мережеві засоби
 
-- [get-port-cli](https://github.com/sindresorhus/get-port-cli) - Get an available port.
-- [is-reachable-cli](https://github.com/beatfreaker/is-reachable-cli) - Check if hostnames are reachable or not.
-- [acmetool](https://github.com/hlandau/acmetool) - Automatic certificate acquisition for ACME (Let's Encrypt).
-- [certificate-ripper](https://github.com/Hakky54/certificate-ripper) - Extract server certificates.
-- [neoss](https://github.com/PabloLec/neoss) - User-friendly and detailed socket statistics.
+- [get-port-cli](https://github.com/sindresorhus/get-port-cli) - Отримати доступний порт.
+- [is-reachable-cli](https://github.com/beatfreaker/is-reachable-cli) - Перевірте, чи вузли доступні чи ні.
+- [acmetool](https://github.com/hlandau/acmetool) - Автоматичне отримання сертифікату для ACME (Let's Encrypt).
+- [сертифікатів](https://github.com/Hakky54/certificate-ripper) - очищувати сертифікати сервера.
+- [Неоси](https://github.com/PabloLec/neoss) - Достовірна і детальна статистика сокетів.
 
-### Theming and Customization
+### Теми та персоналізація
 
-- [splash-cli](https://github.com/splash-cli/splash-cli) - Beautiful wallpapers from Unsplash.
-- [wallpaper-cli](https://github.com/sindresorhus/wallpaper-cli) - Get or set the desktop wallpaper.
-- [themer](https://github.com/mjswensen/themer) - Generate personalized themes for your editor, terminal, wallpaper, Slack, and more.
-- [JackPaper](https://github.com/jackel27/jackpaper) - Set images from Unsplash as wallpaper.
-- [pywal](https://github.com/dylanaraps/pywal) - Generate and change color-schemes, then apply them system-wide to all of your favourite programs.
-- [QuickWall](https://github.com/deepjyoti30/QuickWall) - Directly set wallpapers from Unsplash.
-- [oh-my-posh](https://ohmyposh.dev) - Prompt theme engine.
+- [splash-cli](https://github.com/splash-cli/splash-cli) - прекрасні шпалери з Unsplash.
+- [wallpaper-cli](https://github.com/sindresorhus/wallpaper-cli) - Отримати чи встановити шпалери для робочого столу.
+- [тем](https://github.com/mjswensen/themer) - Створити персоналізовані теми для вашого редактора, терміналу, шпалера, Slack та іншого.
+- [JackPaper](https://github.com/jackel27/jackpaper) - Встановити зображення з Unsplash як шпалери.
+- [pywal](https://github.com/dylanaraps/pywal) - Змініть кольорові схеми, потім застосуйте їх скрізь до всіх ваших улюблених програм.
+- [QuickWall](https://github.com/deepjyoti30/QuickWall) - Безпосередньо встановити шпалери від Розгорнення.
+- [oh-my-posh](https://ohmyposh.dev) - механізм теми.
 
-### Shell Utilities
+### Інструменти мушлі
 
-- [has](https://github.com/kdabir/has) - Checks for the presence of various commands and their versions on the path.
-- [Ultimate Plumber](https://github.com/akavel/up) - Write Linux pipes with live previews.
-- [fkill-cli](https://github.com/sindresorhus/fkill-cli) - Simple cross-platform process killer.
-- [task-spooler](https://tracker.debian.org/pkg/task-spooler) - Queue jobs for linear execution.
-- [undollar](https://github.com/ImFeelingDucky/undollar) - Strip the '$' preceding copy-pasted terminal commands.
-- [pipe_exec](https://github.com/koraa/pipe_exec) - Run executables from stdin, pipes and ttys without creating a temporary file.
+- [](https://github.com/kdabir/has) - Перевіряє наявність різних команд та їх версій на шляху.
+- [Ultimate Plumber](https://github.com/akavel/up) - Запишіть конвеєри Linux прев'ю .
+- [fkill-cli](https://github.com/sindresorhus/fkill-cli) - Програвач простого крос-платформеного процесу.
+- [лопатор](https://tracker.debian.org/pkg/task-spooler) - Завдання черги для лінійного виконання.
+- [видобуток](https://github.com/ImFeelingDucky/undollar) - отправляти перед терміналом '$'.
+- [pipe_exec](https://github.com/koraa/pipe_exec) - Запустити виконувані файли з stdin, pipes і ttys без створення тимчасового файлу.
 
-### System Interaction Utilities
+### Інструменти взаємодії системи
 
-- [neofetch](https://github.com/dylanaraps/neofetch) - System information tool.
-- [battery-level-cli](https://github.com/gillstrom/battery-level-cli) - Get current battery level.
-- [brightness-cli](https://github.com/kevva/brightness-cli) - Change screen brightness ([windows](https://github.com/sondreb/win-brightness)).
-- [yank](https://github.com/mptre/yank) - Yank terminal output to clipboard.
-- [screensaver](https://github.com/gillstrom/screensaver) - Start the screensaver.
-- [google-font-installer](https://github.com/lordgiotto/google-font-installer) - Download and install Google Web Fonts on your local machine.
-- [glances](https://nicolargo.github.io/glances/) - System monitoring tool.
-- [tiptop](https://github.com/nschloe/tiptop) - System monitor.
-- [gzip-size-cli](https://github.com/sindresorhus/gzip-size-cli) - Get the gzipped size of a file.
+- [вкладеність](https://github.com/dylanaraps/neofetch) - інструмент для отримання інформації про систему.
+- [battery-level-cli](https://github.com/gillstrom/battery-level-cli) - Отримайте поточний рівень заряду батареї.
+- [яскравість екрану](https://github.com/kevva/brightness-cli) - Змінити яскравість екрану ([вікна](https://github.com/sondreb/win-brightness)).
+- [Yank](https://github.com/mptre/yank) - вихід терміналу в буфер обміну.
+- [заставка](https://github.com/gillstrom/screensaver) - Запустити заставку екрану.
+- [google-font-installer](https://github.com/lordgiotto/google-font-installer) - Завантажте та встановіть шрифти Google на вашу локальну машину.
+- [погляди](https://nicolargo.github.io/glances/) - інструмент моніторингу системи.
+- [Підказка](https://github.com/nschloe/tiptop) - Системний монітор.
+- [gzip-size-cli](https://github.com/sindresorhus/gzip-size-cli) - Отримайте gziped розмір файлу.
 
 ### Markdown
 
-- [DocToc](https://github.com/thlorenz/doctoc) - Generates table of contents for markdown files.
-- [grip](https://github.com/joeyespo/grip) - Preview markdown files as GitHub would render them.
-- [mdv](https://github.com/axiros/terminal_markdown_viewer) - Styled terminal markdown viewer.
-- [glow](https://github.com/charmbracelet/glow) - Styled markdown rendering.
-- [gtree](https://github.com/ddddddO/gtree) - Use markdown to generate directory trees and the directories itself.
+- [DocToc](https://github.com/thlorenz/doctoc) - Створює таблицю вмісту для файлів markdown.
+- [схопити](https://github.com/joeyespo/grip) - Попередній перегляд файлів markdown, як GitHub.
+- [mdv](https://github.com/axiros/terminal_markdown_viewer) - переглядач терміналів markdown.
+- [світіння](https://github.com/charmbracelet/glow) - візуалізація стилю.
+- [gtree](https://github.com/ddddddO/gtree) - Використовуйте markdown для генерації дерев каталогів і самих каталогів.
 
-### Security
+### Безпека
 
-- [pass](https://www.passwordstore.org) - Password manager.
-- [gopass](https://github.com/gopasspw/gopass) - Fully-featured password manager.
-- [xiringuito](https://github.com/ivanilves/xiringuito) - SSH-based VPN.
-- [hasha-cli](https://github.com/sindresorhus/hasha-cli) - Get the hash of text or stdin.
-- [ots](https://github.com/sniptt-official/ots) - Share secrets with others via a one-time URL.
+- [передати](https://www.passwordstore.org) - Керування паролями.
+- [gopass](https://github.com/gopasspw/gopass) - Керування паролями з повною функціональністю.
+- [xiringuito](https://github.com/ivanilves/xiringuito) - VPN.
+- [hasha-cli](https://github.com/sindresorhus/hasha-cli) - Отримати хеш тексту або stdin.
+- [Коріння](https://github.com/sniptt-official/ots) - Діліться таємницями з іншими через одноразову URL-адресу.
 
-### Math
+### Математика
 
-- [mdlt](https://github.com/metadelta/mdlt) - Do quick math right from the command line.
-- [Qalculate](https://github.com/Qalculate/libqalculate) - Calculate non-trival math expressions. Unit conversions, symbolic calculations and more.
+- [mdlt](https://github.com/metadelta/mdlt) - Швидкий висновок з командного рядка.
+- [Qalculate](https://github.com/Qalculate/libqalculate) - Обчислити вирази математичних розрахунків. Конвертації одиниць, символічні розрахунки та багато іншого.
 
-### Weather
+### Погода
 
 - [wttr.in](https://github.com/chubin/wttr.in)
 - [wego](https://github.com/schachmat/wego)
-- [weather-cli](https://github.com/riyadhalnur/weather-cli)
+- [погода-клі](https://github.com/riyadhalnur/weather-cli)
 
-### Browser Replacement
+### Заміна оглядача
 
-- [s](https://github.com/zquestz/s) - Open a web search in your terminal.
-- [hget](https://github.com/bevacqua/hget) - Render websites in plain text from your terminal.
-- [mapscii](https://github.com/rastapasta/mapscii) - Terminal Map Viewer.
-- [nasa-cli](https://github.com/xxczaki/nasa-cli) - Download NASA Picture of the Day.
-- [getnews.tech](https://github.com/omgimanerd/getnews.tech) - Fetch news headlines from various news outlets.
-- [trino](https://github.com/eneserdogan/trino) - Translation of words and phrases.
-- [translate-shell](https://github.com/soimort/translate-shell) - Google Translate interface.
+- [s](https://github.com/zquestz/s) - Відкрити веб-пошук у вашому терміналі.
+- [hget](https://github.com/bevacqua/hget) - Візуалізація сайтів у звичайному тексті з вашого терміналу.
+- [mapscii](https://github.com/rastapasta/mapscii) - Вигляд терміналу карт.
+- [nasa-cli](https://github.com/xxczaki/nasa-cli) - Завантажте зображення Дню НАСА.
+- [getnews.tech](https://github.com/omgimanerd/getnews.tech) - Отримати заголовки новин з різних відрізків новин.
+- [трино](https://github.com/eneserdogan/trino) - Переклад слів і слів.
+- [translate-shell](https://github.com/soimort/translate-shell) - інтерфейс Google Translate .
 
-### Internet Speedtest
+### Інтернет-гіспект
 
-- [speedtest-net](https://github.com/ddsol/speedtest.net) - Test internet connection speed and ping using speedtest.net.
-- [speed-test](https://github.com/sindresorhus/speed-test) - `speedtest-net` wrapper with different UI.
-- [speedtest-cli](https://github.com/sivel/speedtest-cli) - Test internet bandwidth using speedtest.net.
-- [bandwhich](https://github.com/imsnif/bandwhich) - Track bandwidth utilization by process.
+- [speedtest-net](https://github.com/ddsol/speedtest.net) - Перевірте швидкість підключення до Інтернету і пінг за допомогою speedtest.net.
+- [швидкісний тест](https://github.com/sindresorhus/speed-test) - `speedtest-net` обгортка з іншим інтерфейсом.
+- [speedtest-cli](https://github.com/sivel/speedtest-cli) - Тест пропускної здатності Інтернету за допомогою speedtest.net.
+- [з'єднання](https://github.com/imsnif/bandwhich) - Завантаження пропускної здатності процесу.
 
-## Command Line Learning
+## Навчання командного рядка
 
-- [cmdchallenge](https://cmdchallenge.com) - Presents small shell challenge with user submitted solutions.
-- [explainshell](https://www.explainshell.com/) - Type a snippet to see the help text for each argument.
-- [howdoi](https://github.com/gleitz/howdoi) - Instant coding answers.
-- [how2](https://github.com/santinic/how2) - Node.js implementation of howdoi.
-- [The Fuck](https://github.com/nvbn/thefuck) - Magnificent app which corrects your previous console command.
-- [tldr](https://github.com/tldr-pages/tldr) - Simplified and community-driven man pages.
-- [Wat](https://github.com/dthree/wat) - Instant, central, community-built docs.
-- [teachcode](https://github.com/madlabsinc/teachcode) - Guide for the earliest lessons of coding.
-- [navi](https://github.com/denisidoro/navi) - Interactive cheatsheet tool.
+- [cmdchallenge](https://cmdchallenge.com) - встановлює невеличку оболонку з поданими рішеннями користувача.
+- [explainshell](https://www.explainshell.com/) - Введіть сніпет, щоб побачити текст довідки для кожного з аргументів.
+- [howdoi](https://github.com/gleitz/howdoi) - миттєві відповіді на програмування.
+- [how2](https://github.com/santinic/how2) - Реалізація Node.js інструкції.
+- [Fuck](https://github.com/nvbn/thefuck) - Чудова програма, яка виправляє вашу попередню команду консолі.
+- [tldr](https://github.com/tldr-pages/tldr) - Спрощені і сторінки людей, що керуються спільнотою.
+- [Wat](https://github.com/dthree/wat) - Миттєві, центральні, вбудовані спільноти.
+- [навчальний код](https://github.com/madlabsinc/teachcode) - Керівництво для перших уроків кодування.
+- [navi](https://github.com/denisidoro/navi) - Інтерактивний інструмент таблиці.
 
-## Data Manipulation
+## Маніпуляція даних
 
-- [visidata](https://github.com/saulpw/visidata) - Spreadsheet multitool for data discovery and arrangement.
+- [visidata](https://github.com/saulpw/visidata) - Багатомовний мультитал для виявлення даних та розташування.
 
-### Processors
+### Процесори
 
-- [jq](https://github.com/stedolan/jq) - JSON processor.
-- [yq](https://github.com/kislyuk/yq) - YAML processor.
-- [dasel](https://github.com/tomwright/dasel) - JSON/YAML/TOML/XML processor (like jq/yq).
+- [jq](https://github.com/stedolan/jq) - обробник JSON.
+- [yq](https://github.com/kislyuk/yq) - YAML процесор.
+- [dasel](https://github.com/tomwright/dasel) - JSON/YAML/TOML/XML-процесор (наприклад jq/yq).
 - [yaml-cli](https://github.com/pandastrike/yaml-cli) - Query/update YAML.
-- [ramda-cli](https://github.com/raine/ramda-cli) - Process data with functional pipelines.
+- [ramda-cli](https://github.com/raine/ramda-cli) - Процес даних з функціональними конвеєрами.
 
 ### JSON
 
 - [jp](https://github.com/therealklanni/jp) - JSON parser.
-- [fx](https://github.com/antonmedv/fx) - Command-line JSON viewer.
-- [vj](https://github.com/busyloop/vj) - Makes JSON human readable.
-- [underscore-cli](https://github.com/ddopson/underscore-cli) - Utility-belt for hacking JSON and Javascript.
-- [strip-json-comments-cli](https://github.com/sindresorhus/strip-json-comments-cli) - Strip comments from JSON.
-- [GROQ](https://github.com/sanity-io/groq-cli) – JSON processor with queries and projections.
-- [gron](https://github.com/tomnomnom/gron) - Make JSON greppable.
+- [fx](https://github.com/antonmedv/fx) - Переглядач командного рядка JSON.
+- [vj](https://github.com/busyloop/vj) - робить людину JSON читабельною.
+- [underscore-cli](https://github.com/ddopson/underscore-cli) - Utility-belt для hacking JSON і Javascript.
+- [strip-json-comments-cli](https://github.com/sindresorhus/strip-json-comments-cli) - Замінювати коментарі від JSON.
+- [GROQ](https://github.com/sanity-io/groq-cli) - обробник JSON з запитами та проектами.
+- [сірий](https://github.com/tomnomnom/gron) - Зробити JSON життєздатним.
 
-### YAML
+### ЯМЛ
 
-- [dyff](https://github.com/homeport/dyff) - YAML diff tool.
+- [зменшити](https://github.com/homeport/dyff) - інструмент різниці YAML.
 
-### Columns
+### Стовпці
 
-- [parse-columns-cli](https://github.com/sindresorhus/parse-columns-cli) - Parse text columns to JSON.
-- [q](http://harelba.github.io/q/) - Execution of SQL-like queries on CSV/TSV/tabular text file.
+- [parse-columns-cli](https://github.com/sindresorhus/parse-columns-cli) - Обробити текстові стовпці в JSON.
+- [q](http://harelba.github.io/q/) - Виконання SQL-запитів, схожих на CSV/TSV/табуляційний текстовий файл.
 
-### Text
+### Текст
 
-- [figlet](http://www.figlet.org/) - Creates large text out of ASCII characters.
-- [stegcloak](https://github.com/kurolabs/stegcloak) - Hide secrets with invisible characters in plain text securely.
+- [figlet](http://www.figlet.org/) - Створює великий текст з символів ASCII.
+- [stegcloak](https://github.com/kurolabs/stegcloak) - Приховати секрети з невидимими символами звичайного тексту.
 
-## Files and Directories
+## Файли та директорії
 
-### File Managers
+### Файловий менеджер
 
-- [ranger](https://github.com/ranger/ranger) - A console file manager with VI key bindings.
-- [midnight-commander](https://github.com/MidnightCommander/mc) - A feature rich visual file manager.
-- [Vifm](https://vifm.info/) - VI influnced file manager.
-- [nnn](https://github.com/jarun/nnn) - File browser and disk usage analyzer with excellent desktop integration.
-- [lf](https://github.com/gokcehan/lf) - Fast, extensively customizable file manager.
-- [fff](https://github.com/dylanaraps/fff) - Fast, simple file manager.
-- [clifm](https://github.com/leo-arch/clifm) - The command line file manager.
+- [далекобійний](https://github.com/ranger/ranger) - Менеджер файлів консолі з bindings VI ключами.
+- [midnight-commander](https://github.com/MidnightCommander/mc) - Функція, багата візуальним файловим менеджером.
+- [Віфм](https://vifm.info/) - VI збільшений файловий менеджер.
+- [nnn](https://github.com/jarun/nnn) - Файловий браузер та аналізатор використання дисків з чудовою інтеграцією на комп'ютері.
+- [lf](https://github.com/gokcehan/lf) - Швидкий, розширений налаштовуваний файловий менеджер.
+- [fff](https://github.com/dylanaraps/fff) - Швидкий, простий файловий менеджер.
+- [підйомник](https://github.com/leo-arch/clifm) - файловий менеджер командного рядка.
 
-### Deleting, Copying, and Renaming
+### Видалення, Копіювання та перейменування
 
-- [trash-cli](https://github.com/sindresorhus/trash-cli) - Move files and directories to the trash.
-- [empty-trash-cli](https://github.com/sindresorhus/empty-trash-cli) - Empty the trash.
-- [del-cli](https://github.com/sindresorhus/del-cli) - Delete files and folders.
-- [cpy-cli](https://github.com/sindresorhus/cpy-cli) - Copies files.
-- [rename-cli](https://github.com/jhotmann/node-rename-cli) - Rename files quickly.
-- [renameutils](https://www.nongnu.org/renameutils/) - Mass renaming in your editor.
+- [trash-cli](https://github.com/sindresorhus/trash-cli) - Переміщення файлів і каталогів в кошик.
+- [empty-trash-cli](https://github.com/sindresorhus/empty-trash-cli) - Очистити смітник.
+- [del-cli](https://github.com/sindresorhus/del-cli) - Видалити файли і папки.
+- [cpy-cli](https://github.com/sindresorhus/cpy-cli) - Копії файлів.
+- [rename-cli](https://github.com/jhotmann/node-rename-cli) - Перейменувати файли.
+- [перейменовувати](https://www.nongnu.org/renameutils/) - Масове перейменування в вашому редакторі.
 - [diskonaut](https://github.com/imsnif/diskonaut) - Disk space navigator.
 
-### Files
+### Файли
 
-- [chokidar-cli](https://github.com/open-cli-tools/chokidar-cli) - CLI to watch file system changes.
-- [file-type-cli](https://github.com/sindresorhus/file-type-cli) - Detect the file type of a file or stdin.
-- [bat](https://github.com/sharkdp/bat) - A cat clone with syntax highlighting.
-- [NCDu](https://dev.yorhel.nl/ncdu) - A disk usage analyzer with an ncurses interface.
-- [unix-permissions](https://github.com/ehmicky/unix-permissions) - Swiss Army knife for Unix permissions.
-- [transmission-cli](https://transmissionbt.com) - Torrent client for your command line.
-- [webtorrent-cli](https://github.com/feross/webtorrent-cli) – Streaming torrent client.
-- [entr](https://github.com/eradman/entr) - Run an arbitrary command when files change.
-- [organize-cli](https://github.com/ManrajGrover/organize-cli) - Organize your files automatically.
-- [organize-rt](https://gitlab.com/FixFromDarkness/organize-rt) - organize-cli in Rust with more customization.
-- [RecoverPy](https://github.com/PabloLec/RecoverPy) - Recover overwritten or deleted files.
+- [chokidar-cli](https://github.com/open-cli-tools/chokidar-cli) - CLI для перегляду змін файлової системи.
+- [файл-type-cli](https://github.com/sindresorhus/file-type-cli) - визначити тип файлу або stdin.
+- [bat](https://github.com/sharkdp/bat) - клон кота з підсвіткою синтаксису.
+- [NCDu](https://dev.yorhel.nl/ncdu) - Аналізатор використання дисків з інтерфейсом ncurs.
+- [unix-permissions](https://github.com/ehmicky/unix-permissions) - Швейцарський армійський ніж для Unix дозволів.
+- [transmission-cli](https://transmissionbt.com) - торент-клієнт для вашого командного рядка.
+- [webtorrent-cli](https://github.com/feross/webtorrent-cli) - торрент-клієнт.
+- [entr](https://github.com/eradman/entr) - Виконати довільну команду при зміні файлів.
+- [organize-cli](https://github.com/ManrajGrover/organize-cli) - Організуйте ваші файли автоматично.
+- [organize-rt](https://gitlab.com/FixFromDarkness/organize-rt) - організово-клі в іржі з більшою налаштуванням.
+- [RecoverPy](https://github.com/PabloLec/RecoverPy) - Відновити перезаписані або видалені файли.
 
-### File Sync/Sharing
+### Синхронізація / Спільне використання файлів
 
-- [rclone](https://github.com/ncw/rclone) - Sync files with various cloud providers.
-- [ffsend](https://github.com/timvisee/ffsend) - Quick file share.
-- [share-cli](https://github.com/marionebl/share-cli) - Share files with your local network.
-- [google-drive-upload](https://github.com/labbots/google-drive-upload) - Upload/sync with Google Drive.
-- [gdrive-downloader](https://github.com/Akianonymus/gdrive-downloader) - Download files/folders from Google Drive.
-- [portal](https://github.com/ZinoKader/portal) - Send files between computers.
+- [rclone](https://github.com/ncw/rclone) - Синхронізація файлів з різними хмарними провайдерами.
+- [ffsend](https://github.com/timvisee/ffsend) - Швидкий доступ до файлів.
+- [share-cli](https://github.com/marionebl/share-cli) - Поділитися файлами з вашою локальною мережею.
+- [google-drive-upload](https://github.com/labbots/google-drive-upload) - Upload/sync з Google Drive.
+- [gdrive-downloader](https://github.com/Akianonymus/gdrive-downloader) - Завантажити файли/папки з Google Drive.
+- [портал](https://github.com/ZinoKader/portal) - Надіслати файли між комп'ютерами.
 
-### Directory Listing
+### Список каталогів
 
-- [alder](https://github.com/aweary/alder) - Minimal `tree` with colors.
-- [exa](https://github.com/ogham/exa) - Improved version of `ls`.
-- [tre](https://github.com/dduan/tre) - `tree` with git awareness, editor aliasing, and more.
-- [ll](https://github.com/antonmedv/ll) - `ls` with git status.
-- [lsd](https://github.com/Peltoche/lsd) - `ls` with many extra features.
+- [змінювати](https://github.com/aweary/alder) - Мінімальне `дерево` з кольорами.
+- [exa](https://github.com/ogham/exa) - Покращена версія `ls`.
+- [Трей](https://github.com/dduan/tre) - `дерева` зі знанням git, псевдонімом редактора і багато іншого.
+- [ll](https://github.com/antonmedv/ll) - `ls` з статусом git.
+- [lsd](https://github.com/Peltoche/lsd) - `ls` з безліччю додаткових можливостей.
 
-### Directory Navigation
+### Навігація по каталогах
 
-- [autojump](https://github.com/wting/autojump) - A cd command that learns - easily navigate directories from the command line.
-- [fasd](https://github.com/clvv/fasd) - Command-line productivity booster, offers quick access to files and directories, inspired by autojump, z and v.
-- [pm](https://github.com/Angelmmiguel/pm) - The easy way to switch to your projects on the shell.
-- [z](https://github.com/rupa/z) - z is the new j, yo.
-- [PathPicker](https://github.com/facebook/pathpicker/) - After parsing the output from a command, PathPicker presents you with a nice UI to select which files you're interested in.
-- [fz](https://github.com/changyuheng/fz.sh) - Seamless fuzzy tab completion for z.
-- [goto](https://github.com/iridakos/goto) - Directory aliases for the shell with autocomplete.
-- [z.lua](https://github.com/skywind3000/z.lua) - `cd` command that learns your habits.
-- [zoxide](https://github.com/ajeetdsouza/zoxide) - Fast directory jumper in Rust.
+- [autojump](https://github.com/wting/autojump) - команда cd, яка вивчає теки з командного рядка.
+- [fasd](https://github.com/clvv/fasd) - підсилювач продуктивності командного рядка, пропонує швидкий доступ до файлів та каталогів, натхненний autojump, z і v.
+- [вечора](https://github.com/Angelmmiguel/pm) - простий спосіб переключитися на ваші проекти в оболонці.
+- [z](https://github.com/rupa/z) - z це новий j, yo.
+- [PathPicker](https://github.com/facebook/pathpicker/) - Після обробки виводу в команді, PathPicker представляє вам хороший інтерфейс, щоб вибрати файли, які ви цікавили.
+- [fz](https://github.com/changyuheng/fz.sh) - Швидке завершення вкладки z.
+- [перейдіть до](https://github.com/iridakos/goto) - псевдоніми каталогів для оболонки з автозавершенням.
+- [z.lua](https://github.com/skywind3000/z.lua) - `cd` команда, яка вивчає ваші звички.
+- [зоксид](https://github.com/ajeetdsouza/zoxide) - стрибки Швидких каталогів в Rust.
 
-### Search
+### Пошук
 
-- [happyfinder](https://github.com/hugows/hf) - (another) Fuzzy file finder for the command line.
-- [find-up-cli](https://github.com/sindresorhus/find-up-cli) - Find a file by walking up parent directories.
-- [ripgrep](https://github.com/BurntSushi/ripgrep) - A line-oriented search tool that recursively searches your current directory for a regex pattern.
-- [fzf](https://github.com/junegunn/fzf) - A general purpose command-line fuzzy finder, can be used with any list: files/directories, command history, processes, hostnames, bookmarks, git commits, etc.
-- [fselect](https://github.com/jhspetersson/fselect) - Find files with SQL-like queries.
-- [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to `find`.
-- [broot](https://github.com/Canop/broot) - Fuzzy finder similar to fzf, but with space usage visualization.
-- [rare](https://github.com/zix99/rare) - Real-time regex aggregation and analysis.
-- [skim](https://github.com/lotabout/skim) - A general fuzzy finder written in rust, similar to fzf.
+- [happyfinder](https://github.com/hugows/hf) - (another) Нечіткий пошук файлу для командного рядка.
+- [знайти up-cli](https://github.com/sindresorhus/find-up-cli) - знайти файл, пройшовши до батьківських директорій.
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - Конфігурований інструмент пошуку, який рекурсивно шукає ваш поточний каталог для регулярного виразу.
+- [fzf](https://github.com/junegunn/fzf) - загальний інструмент нечіткого пошуку, який може використовуватися з будь-яким списком: files/directories, командний історію, процеси, закладки, закладки, git коміти тощо.
+- [fselect](https://github.com/jhspetersson/fselect) - Знайти файли за допомогою SQL-запитів.
+- [fd](https://github.com/sharkdp/fd) - проста, швидка і дружня альтернатива `знайти`.
+- [брот](https://github.com/Canop/broot) - Нечіткий пошук, подібний до fzf, але з використанням пробілів візуалізація.
+- [рідкісний](https://github.com/zix99/rare) - агрегація та аналіз у реальному часі.
+- [фермент](https://github.com/lotabout/skim) - загальний нечіткий знахідник, подібний до fzf.
 
-## Version Control
+## Керування версіями
 
-- [SnowFS](https://github.com/snowtrack/snowfs) - A fast, scalable version control system for binaries.
+- [SnowFS](https://github.com/snowtrack/snowfs) - Швидка, масштабна система контролю версій для бінарних.
 
 ### Git
 
-- [git commander](https://github.com/golbin/git-commander) - Interactive git tool.
-- [git-stats](https://github.com/IonicaBizau/git-stats) - A local GitHub-like contributions calendar.
-- [dev-time](https://github.com/samverschueren/dev-time-cli) - Get the current local time of a GitHub user.
-- [tig](https://github.com/jonas/tig) - Text-mode interface for git.
-- [grv](https://github.com/rgburke/grv) - Text-mode interface for git with customisable vi bindings.
-- [git-standup](https://github.com/kamranahmedse/git-standup) - Recall what you did on the last working day.
-- [git-secret](https://github.com/sobolevn/git-secret) - Store your private data inside a git repository.
-- [gitlab-cli](https://github.com/vishwanatharondekar/gitlab-cli) - Create GitLab merge requests.
-- [git-extras](https://github.com/tj/git-extras) - Git utilities.
-- [gita](https://github.com/nosarthur/gita) - Manage multiple git repos side by side.
-- [readme-md-generator](https://github.com/kefranabg/readme-md-generator) - Interactively generate README.md files.
-- [semantic-git-commit-cli](https://github.com/JPeer264/node-semantic-git-commit-cli) - Ensure semantic commits messages.
-- [import-github-labels-cli](https://github.com/abhijithvijayan/import-github-labels-cli) - Sync labels between Github repos.
-- [git-all-branches](https://github.com/zacanger/git-all-branches) - Improved `git branch -a`.
-- [czg](https://github.com/Zhengqbbb/cz-git/tree/main/packages/cli) - Interactively generate standardized commit messages.
-- [shallow-backup](https://github.com/alichtman/shallow-backup) - Git integrated backup tool.
+- [git commander](https://github.com/golbin/git-commander) - Інтерактивний інструмент git.
+- [git-stats](https://github.com/IonicaBizau/git-stats) - Локальний календар, схожий на GitHub.
+- [dev-time](https://github.com/samverschueren/dev-time-cli) - Отримати поточний місцевий час користувача GitHub.
+- [tig](https://github.com/jonas/tig) - Інтерфейс Text-mode для git.
+- [сісти](https://github.com/rgburke/grv) - Текст-режим інтерфейс для git з вбудованими bindings vi
+- [git-standup](https://github.com/kamranahmedse/git-standup) - згадайте що ви зробили в останній робочий день.
+- [git-secret](https://github.com/sobolevn/git-secret) - зберігайте ваші особисті дані всередині git репозиторію.
+- [gitlab-cli](https://github.com/vishwanatharondekar/gitlab-cli) - Створити GitLab запити на злиття.
+- [git-extras](https://github.com/tj/git-extras) - завантаження Git.
+- [gita](https://github.com/nosarthur/gita) - Управління великою кількістю git репозиторіями вручну.
+- [readme-md-generator](https://github.com/kefranabg/readme-md-generator) - Інтерактивно генерувати README.md файли.
+- [семантик-git-commit-cli](https://github.com/JPeer264/node-semantic-git-commit-cli) - Перевірити семантичні повідомлення.
+- [import-github-labels-cli](https://github.com/abhijithvijayan/import-github-labels-cli) - Синхронізація міток між Github repos.
+- [git-all-гілки](https://github.com/zacanger/git-all-branches) - Покращений `git branch -a`.
+- [czg](https://github.com/Zhengqbbb/cz-git/tree/main/packages/cli) - Interactively create стандартизовані повідомлення комітів.
+- [shallow-backup](https://github.com/alichtman/shallow-backup) - Git інтегрований інструмент резервного копіювання.
 
 ### GitHub
 
 - [CLI GitHub](https://github.com/IonicaBizau/cli-github) - Fancy GitHub client.
-- [Gistup](https://github.com/mbostock/gistup) - Manage GitHub gists.
-- [hub](https://github.com/github/hub) - Make git easier to use with GitHub.
-- [git-labelmaker](https://github.com/himynameisdave/git-labelmaker) - Edit GitHub labels.
+- [Gistup](https://github.com/mbostock/gistup) - Управління GitHub.
+- [вузол](https://github.com/github/hub) - зробити git простішим для використання на GitHub.
+- [git-labelmaker](https://github.com/himynameisdave/git-labelmaker) - Редагувати GitHub.
 
 ### Emoji
 
-- [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli) - Use emoji in commit messages.
-- [gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog) - Generate gitmoji changelogs.
+- [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli) - Використовуйте емодзі в повідомленнях.
+- [gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog) - Створіть список змін gitmoj.
 
-## Images
+## Малюнки
 
-- [SVGO](https://github.com/svg/svgo) - Optimize SVG files.
-- [carbon-now-cli](https://github.com/mixn/carbon-now-cli) - Generate beautiful images of your code.
-- [imgur-uploader-cli](https://github.com/kevva/imgur-uploader-cli) - Upload images to imgur.
-- [pageres-cli](https://github.com/sindresorhus/pageres-cli) - Capture website screenshots.
+- [SVGO](https://github.com/svg/svgo) - Оптимізація SVG файлів.
+- [вуглець now-cli](https://github.com/mixn/carbon-now-cli) - Генеруйте красиві зображення вашого коду.
+- [imgur-uploader-cli](https://github.com/kevva/imgur-uploader-cli) - Завантажити зображення до imgur.
+- [pageres-cli](https://github.com/sindresorhus/pageres-cli) - Зробити скріншоти сайту.
 
-### Gif Creation
+### Створення Ґіф
 
-- [gifgen](https://github.com/lukechilds/gifgen) - Simple high quality GIF encoding.
-- [gifsicle](https://github.com/kohler/gifsicle) - Create, manipulate, and optimize GIF images and animations.
-- [ttygif](https://github.com/icholy/ttygif) - Convert terminal recordings to animated gifs.
-- [ttygif](https://github.com/sugyan/ttygif) - ttyrec to gif.
-- [ttystudio](https://github.com/chjj/ttystudio) - A terminal-to-gif recorder minus the headaches.
-- [asciinema](https://github.com/asciinema/asciinema) - Terminal session recorder and companion app for asciinema.org.
-- [givegif](https://github.com/passy/givegif) - GIFs on the command line.
+- [gifgen](https://github.com/lukechilds/gifgen) - високоякісне кодування GIF.
+- [gifsicle](https://github.com/kohler/gifsicle) - Створюйте, маніпулювати, оптимізувати зображення та анімації.
+- [ttygif](https://github.com/icholy/ttygif) - Конвертувати термінали в анімовані подарунки.
+- [ttygif](https://github.com/sugyan/ttygif) - ttyrec до gif.
+- [ttystudio](https://github.com/chjj/ttystudio) - Екстрал-і-гіф – рекордер мінус головний біль.
+- [asciinema](https://github.com/asciinema/asciinema) - Terminal session recorder та companion app for asciinema.org.
+- [передача даних](https://github.com/passy/givegif) - GIF в командному рядку.
 
-### Image Conversion
+### Перетворення зображень
 
-- [imagemagick](https://imagemagick.org) - Gold standard for anything images.
-- [imgp](https://github.com/jarun/imgp) - Blazing fast batch image resizer and rotator.
-- [korkut](https://github.com/oguzhaninan/korkut) - Quick and simple image processing.
+- [зображення](https://imagemagick.org) - золотий стандарт для всього зображення.
+- [imgp](https://github.com/jarun/imgp) - Швидший розмір пакетного зображення і ротатор.
+- [korkut](https://github.com/oguzhaninan/korkut) - швидка і проста обробка зображень.
 
-## Screensavers
+## Заощадження екрану
 
-- [cmatrix](https://github.com/Treri/cmatrix) - Scrolling 'Matrix'-like screen.
-- [pipes.sh](https://github.com/pipeseroni/pipes.sh) - Random pipes that grow across the screen.
-- [YuleLog](https://github.com/Duroktar/YuleLog) - Christmas Yule Log fireplace.
-- [cli-fireplace](https://github.com/dolsup/cli-fireplace) - Digital fireplace.
+- [матриця](https://github.com/Treri/cmatrix) - прокручування 'Matrix'-подібний екран.
+- [pipes.sh](https://github.com/pipeseroni/pipes.sh) - Випадкові труби, що ростуть по екрану.
+- [Юлежурнал](https://github.com/Duroktar/YuleLog) - жолобковий вогонь різдвяних юлей.
+- [клікліцеве каміння](https://github.com/dolsup/cli-fireplace) - Цифровий камінь.
 
-## Graphics
+## Графіка
 
-- [cli-mandelbrot](https://github.com/danyshaanan/cli-mandelbrot) - Traverse the Mandelbrot fractal.
-- [sparkly-cli](https://github.com/sindresorhus/sparkly-cli) - Generate sparklines ▁▂▃▅▂▇..
-- [pastel](https://github.com/sharkdp/pastel) - Generate, analyze, convert and manipulate colors.
-- [lowcharts](https://github.com/juan-leon/lowcharts) - Draw low-resolution graphs.
+- [клі-мандельброт](https://github.com/danyshaanan/cli-mandelbrot) - Під час фрактального мандельброта Мандельброта.
+- [Sparkly-cli](https://github.com/sindresorhus/sparkly-cli) - Генерувати пробні лінії <unk> <unk> <unk> <unk> <unk> <unk> ..
+- [вставка](https://github.com/sharkdp/pastel) - Генерувати, аналізувати, конвертувати та керувати кольорами.
+- [маленькі діаграми](https://github.com/juan-leon/lowcharts) - намалювати низькороздільні графіки.
 
-## Just for Fun
+## Лише весело
 
-- [cowsay](https://github.com/tnalpgge/rank-amateur-cowsay) - A configurable talking cow (and other animals).
-- [quote-cli](https://github.com/riyadhalnur/quote-cli) - Get a random quote or the quote of the day in your CLI.
-- [fortune](https://github.com/shlomif/fortune-mod) - Shows a random fortune.
+- [корівник](https://github.com/tnalpgge/rank-amateur-cowsay) - налаштована корова (та інші тварини).
+- [квоту](https://github.com/riyadhalnur/quote-cli) - отримати випадкову цитату або цитату дня в вашому командному рядку.
+- [станом](https://github.com/shlomif/fortune-mod) - Показує випадковий стан.
 - [ponysay](https://github.com/erkin/ponysay) - Pony rewrite of cowsay.
-- [yosay](https://github.com/yeoman/yosay) - Like cowsay, but for yeoman.
-- [lolcat](https://github.com/busyloop/lolcat) - Outputs text in rainbow colors.
-- [text-meme](https://github.com/beatfreaker/text-meme-cli) - Generate text memes.
-- [dankcli](https://github.com/sggts04/dankcli) - Add text to meme image templates.
-- [ricksay](https://github.com/roma-guru/ricksay) - Quotes from Rick and Morty.
-- [pokeget](https://github.com/talwat/pokeget) - Display sprites of pokemon.
+- [yosay](https://github.com/yeoman/yosay) - Як корівник, але для ьомів.
+- [lolcat](https://github.com/busyloop/lolcat) - Виведення тексту в веселки кольори.
+- [текстовий мем](https://github.com/beatfreaker/text-meme-cli) - Згенеруйте текстові меми.
+- [dankcli](https://github.com/sggts04/dankcli) - Додати текст до шаблонів мемів.
+- [риксі](https://github.com/roma-guru/ricksay) - Цитати з Рік і Мортики.
+- [pokeget](https://github.com/talwat/pokeget) - Відображати спрайти pokemon.
 
 ### Emoji
 
-- [emoj](https://github.com/sindresorhus/emoj) - Find relevant emoji from text on the command-line.
-- [emoji-finder](https://github.com/dematerializer/emoji-finder) - Quickly find and copy emoji to the clipboard via the command-line.
-- [oji](https://github.com/xxczaki/oji) - Interactive text emoji maker.
+- [emoj](https://github.com/sindresorhus/emoj) - Знайти відповідні емодзі з тексту за допомогою командного рядка.
+- [emoji-finder](https://github.com/dematerializer/emoji-finder) - Легко знайти і копіювати emoji в буфер обміну через командний рядок.
+- [oji](https://github.com/xxczaki/oji) - Інтерактивний текстовий смайлик.
 
-## Other Awesome Lists
+## Інші списки Awesome
 
-- [awesome-git-addons](https://github.com/stevemao/awesome-git-addons#readme) - Addons that extend git cli.
-- [awesome-shell](https://github.com/alebcay/awesome-shell#readme) – Command-line utilities and frameworks.
-- [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy#readme) – Terminal frameworks, plugins & resources.
-- [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins#readme) – ZSH frameworks, plugins, tutorials & themes.
-- [awesome-nodejs clis](https://github.com/sindresorhus/awesome-nodejs#command-line-apps) – Node.js modules and resources.
+- [awesome-git-addons](https://github.com/stevemao/awesome-git-addons#readme) - додатки, які розширять git кліп.
+- [awesome-shell](https://github.com/alebcay/awesome-shell#readme) - утиліти та рамки командного рядка.
+- [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy#readme) - термінальні фреймворки, плагіни & ресурсів.
+- [дивовижні zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins#readme) - ZSH frameworks, плагіни, підручники & теми.
+- [класний клоп nodejs](https://github.com/sindresorhus/awesome-nodejs#command-line-apps) - Node.js модулі і ресурси.
 
-## License
+## Ліцензія
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [Adam Garrett-Harris](https://twitter.com/agarrharr) has waived all copyright and related or neighboring rights to this work.
+Наскільки можливим під законом, [Адам Гарретт -Гарріс](https://twitter.com/agarrharr) позначив усі авторські права та пов'язані з цією роботою.
