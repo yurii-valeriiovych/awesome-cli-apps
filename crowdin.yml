@@ -1,0 +1,3 @@
+files:
+  - source: .github/PULL_REQUEST_TEMPLATE.md
+    translation: .github/PULL_REQUEST_TEMPLATE(uk).md
