@@ -4,13 +4,13 @@ Please fill out the fields below and check that
 your contribution adheres to our guidelines.
 -->
 
-#### New App Submission
+#### Нова програма для ухвалення
 
-- [ ] I've read the [contribution guidelines](https://github.com/agarrharr/awesome-cli-apps/blob/master/contributing.md#readme).
+- [ ] Я прочитав [правила внесків](https://github.com/agarrharr/awesome-cli-apps/blob/master/contributing.md#readme).
 
-**Repo or homepage link:**
+**Посилання на Репо або на головну сторінку:**
 
-**Description:**
+**Опис:**
 
-**Why I think it's awesome:**
+**Чому я вважаю це чудовим:**
 
